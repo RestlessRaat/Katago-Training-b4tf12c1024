@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "sample_counts_initial_first_resumed": [
+    0,
+    672,
+    4224
+  ],
+  "optimizer_steps_first_resumed": [
+    13.0,
+    100.0
+  ],
+  "all_parameters_finite": true,
+  "first_update_max_abs": 1.5497207641601562e-06,
+  "resumed_update_max_abs": 6.452575325965881e-05,
+  "data": {
+    "train": {
+      "files": 2,
+      "rows": 1449,
+      "spatial_features": 22,
+      "packed_9x9_bytes": 11
+    },
+    "val": {
+      "files": 2,
+      "rows": 490,
+      "spatial_features": 22,
+      "packed_9x9_bytes": 11
+    }
+  },
+  "train_val_no_identical_files": true,
+  "training_parameter_tensors_changed_first": 67,
+  "training_parameter_tensors_changed_resumed": 68
+}

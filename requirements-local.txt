@@ -1,0 +1,3 @@
+# PyTorch 2.11.0+cu128 and NumPy 2.4.6 are inherited from this machine's Python 3.14.
+# A fresh machine must install a matching CUDA PyTorch build first; see README.
+sgfmill==1.1.1

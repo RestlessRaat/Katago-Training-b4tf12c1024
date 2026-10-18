@@ -1,0 +1,184 @@
+[
+  {
+    "Path": "LICENSE",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/LICENSE",
+    "SHA256": "EAD22455D923920CD152546D89E4F415C94D6B580AA109FDA3B57A69C57C32E0",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/train.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/train.py",
+    "SHA256": "19A4EC904A8B7457A26E8A60A2D788D71DDBD4A954DFCE2E550385ADBDEDD71F",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/selfplay/train.sh",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/selfplay/train.sh",
+    "SHA256": "5E265999D5661AF4676B268D3B9A61D188F71E453C675BBE1A015F39EB96F996",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/selfplay/shuffle.sh",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/selfplay/shuffle.sh",
+    "SHA256": "755EBF8F7368D5EDC34F1387846407FB2767D571A508C883F3E0B4F93E2580BF",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/selfplay/synchronous_loop.sh",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/selfplay/synchronous_loop.sh",
+    "SHA256": "F9EA27696A8FEFB13773547931D87C46BAB29DAB8BF6B23C2D96161D284A01E5",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/benchmark_fresh_model.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/benchmark_fresh_model.py",
+    "SHA256": "DFB1D2B5A91AD8CA7B50AA22717A2F120C7BD6BFA994780C1A5EE63AA682DA58",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/export_model.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/export_model.py",
+    "SHA256": "",
+    "Status": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "Path": "python/katago/train/load_model.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/katago/train/load_model.py",
+    "SHA256": "7954930E88554C703DAF4179D3DFFA57D027624373CF35DCBBA20D244A955960",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/katago/train/modelconfigs.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/katago/train/modelconfigs.py",
+    "SHA256": "4CED5464586C18492247033CB9F9B5AA66E9D41E335D10BAEBE83EC1E68A9D2E",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/migrate_expand_channels.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/migrate_expand_channels.py",
+    "SHA256": "9BC5C342AC49FB11E1B08D9DD13A56DEA7A8BB83314780BF339B274F80F002A4",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/migrate_optimistic_policy.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/migrate_optimistic_policy.py",
+    "SHA256": "26D33C9180C359DDF2A266289A51BC522031CE58D6BEF74F583F27954A727012",
+    "Status": "saved"
+  },
+  {
+    "Path": "cpp/command/writetrainingdata.cpp",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/cpp/command/writetrainingdata.cpp",
+    "SHA256": "6713F70D7C8950B77B748ED7560E347BDE4FDF4674C28F8FB33A47EE6620FE5D",
+    "Status": "saved"
+  },
+  {
+    "Path": "cpp/configs/training/selfplay1.cfg",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/cpp/configs/training/selfplay1.cfg",
+    "SHA256": "6AD799F2D7653BD7273ECA8E3DF996A6260A863B9BA0498EDAF86AF046C16838",
+    "Status": "saved"
+  },
+  {
+    "Path": "cpp/dataio/trainingwrite.h",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/cpp/dataio/trainingwrite.h",
+    "SHA256": "7F448829F58D2B4A9035CF02AC3BD98262B7892A6DD9C99A37FB1204375C392E",
+    "Status": "saved"
+  },
+  {
+    "Path": "SelfplayTraining.md",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/SelfplayTraining.md",
+    "SHA256": "600D0A328E663BA1A20BBBD5412E3D8B8CBCAC91C990730F67E9CF2BC8E13D14",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/selfplay/export_model_for_selfplay.sh",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/selfplay/export_model_for_selfplay.sh",
+    "SHA256": "1CB7BAC5CB8F85C6CFFF1EC205C610E19405AC3567D604B4E00505E56AF0CA00",
+    "Status": "saved"
+  },
+  {
+    "Path": "docs/ONNX_Model_Files.md",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/docs/ONNX_Model_Files.md",
+    "SHA256": "34E1CD383956AF1779B5539BCCD8A62E7120275A96B899824710AB3114ED4AE2",
+    "Status": "saved"
+  },
+  {
+    "Path": "docs/NetworkArchitectures.md",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/docs/NetworkArchitectures.md",
+    "SHA256": "C3198AAEB5762B69A59EEF7192D4C66D6C2D83E800F569D5D831226AFE18D9E4",
+    "Status": "saved"
+  },
+  {
+    "Path": "docs/KataGoMethods.md",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/docs/KataGoMethods.md",
+    "SHA256": "95A6039D76FCC0BBD629E65C3248FA88D6FCF3216854C8038AB428ECD91C84D2",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/export_model_pytorch.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/export_model_pytorch.py",
+    "SHA256": "EAAAF92D0F6E2F8B7486036822DD5FC1EE8ADD4200CDAD27CBA1E8BCFE604D9E",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/shuffle.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/shuffle.py",
+    "SHA256": "E8DC0C8AE84EBD595066C5BEFE11CF366CFADDFB993CC843BC2400681F2FBB2B",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/clean_checkpoint.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/clean_checkpoint.py",
+    "SHA256": "2C0B93C025C67EA25E2171C9B4D43A788CD44D15128F3364BD58B618F2E83779",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/edit_checkpoint.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/edit_checkpoint.py",
+    "SHA256": "C7C6263CAA72285C522EEDF2A725C37844203550BB238870685BB113637CFD44",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/katago/train/model_pytorch.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/katago/train/model_pytorch.py",
+    "SHA256": "BDE17B3FFF4EBC97717969BF68F2843FB5FD1C781386048C7F19DAE13D1D9517",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/katago/train/metrics_pytorch.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/katago/train/metrics_pytorch.py",
+    "SHA256": "A5416CADB4BB4FACB4A1AF1D13B5A3D07CE7FAF17B83EB05CA22C884748D71DC",
+    "Status": "saved"
+  },
+  {
+    "Path": "python/katago/train/data_processing_pytorch.py",
+    "Commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "URL": "https://raw.githubusercontent.com/lightvector/KataGo/d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/katago/train/data_processing_pytorch.py",
+    "SHA256": "374DF65B15C11F2C83C033A259527E61FA4CA96CB70247D936DBB459BD297C9D",
+    "Status": "saved"
+  }
+]

@@ -1,0 +1,642 @@
+{
+  "source_archive_sha256": "405875c5cfc41ab6b4b5ff818edf3301103d6639fe9bb2c7f2e1489fce5289f4",
+  "source_name": "b6c96-s175395328-d26788732",
+  "source_model_version": 8,
+  "target_model_version": 11,
+  "input_feature_version": 7,
+  "mapped_parameters": 1029293,
+  "total_parameters": 1035149,
+  "mapped": [
+    {
+      "pytorch": "conv_spatial.weight",
+      "tensorflow": "conv1/w",
+      "shape": [
+        96,
+        22,
+        5,
+        5
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "linear_global.weight",
+      "tensorflow": "ginputw",
+      "shape": [
+        96,
+        19
+      ],
+      "transform": "linear"
+    },
+    {
+      "pytorch": "blocks.0.normactconv1.norm.beta",
+      "tensorflow": "rconv1/norm1/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.0.normactconv2.norm.beta",
+      "tensorflow": "rconv1/norm2/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.0.normactconv2.norm.gamma",
+      "tensorflow": "rconv1/norm2/gamma",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.0.normactconv2.conv.weight",
+      "tensorflow": "rconv1/w2",
+      "shape": [
+        96,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.0.normactconv1.conv.weight",
+      "tensorflow": "rconv1/w1",
+      "shape": [
+        96,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.1.normactconv1.norm.beta",
+      "tensorflow": "rconv2/norm1/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.1.normactconv2.norm.beta",
+      "tensorflow": "rconv2/norm2/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.1.normactconv2.norm.gamma",
+      "tensorflow": "rconv2/norm2/gamma",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.1.normactconv2.conv.weight",
+      "tensorflow": "rconv2/w2",
+      "shape": [
+        96,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.1.normactconv1.conv.weight",
+      "tensorflow": "rconv2/w1",
+      "shape": [
+        96,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.2.normactconv1.norm.beta",
+      "tensorflow": "rconv3/norm1/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.2.normactconv2.norm.beta",
+      "tensorflow": "rconv3/norm2/beta",
+      "shape": [
+        1,
+        64,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.2.normactconv2.norm.gamma",
+      "tensorflow": "rconv3/norm2/gamma",
+      "shape": [
+        1,
+        64,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.2.normactconv2.conv.weight",
+      "tensorflow": "rconv3/w2",
+      "shape": [
+        96,
+        64,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.2.normactconv1.convpool.conv1r.weight",
+      "tensorflow": "rconv3/w1a",
+      "shape": [
+        64,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.2.normactconv1.convpool.conv1g.weight",
+      "tensorflow": "rconv3/w1b",
+      "shape": [
+        32,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.2.normactconv1.convpool.normg.beta",
+      "tensorflow": "rconv3/norm1b/beta",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.2.normactconv1.convpool.linear_g.weight",
+      "tensorflow": "rconv3/w1r",
+      "shape": [
+        64,
+        96
+      ],
+      "transform": "linear"
+    },
+    {
+      "pytorch": "blocks.3.normactconv1.norm.beta",
+      "tensorflow": "rconv4/norm1/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.3.normactconv2.norm.beta",
+      "tensorflow": "rconv4/norm2/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.3.normactconv2.norm.gamma",
+      "tensorflow": "rconv4/norm2/gamma",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.3.normactconv2.conv.weight",
+      "tensorflow": "rconv4/w2",
+      "shape": [
+        96,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.3.normactconv1.conv.weight",
+      "tensorflow": "rconv4/w1",
+      "shape": [
+        96,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.4.normactconv1.norm.beta",
+      "tensorflow": "rconv5/norm1/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.4.normactconv2.norm.beta",
+      "tensorflow": "rconv5/norm2/beta",
+      "shape": [
+        1,
+        64,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.4.normactconv2.norm.gamma",
+      "tensorflow": "rconv5/norm2/gamma",
+      "shape": [
+        1,
+        64,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.4.normactconv2.conv.weight",
+      "tensorflow": "rconv5/w2",
+      "shape": [
+        96,
+        64,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.4.normactconv1.convpool.conv1r.weight",
+      "tensorflow": "rconv5/w1a",
+      "shape": [
+        64,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.4.normactconv1.convpool.conv1g.weight",
+      "tensorflow": "rconv5/w1b",
+      "shape": [
+        32,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.4.normactconv1.convpool.normg.beta",
+      "tensorflow": "rconv5/norm1b/beta",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.4.normactconv1.convpool.linear_g.weight",
+      "tensorflow": "rconv5/w1r",
+      "shape": [
+        64,
+        96
+      ],
+      "transform": "linear"
+    },
+    {
+      "pytorch": "blocks.5.normactconv1.norm.beta",
+      "tensorflow": "rconv6/norm1/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.5.normactconv2.norm.beta",
+      "tensorflow": "rconv6/norm2/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.5.normactconv2.norm.gamma",
+      "tensorflow": "rconv6/norm2/gamma",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "blocks.5.normactconv2.conv.weight",
+      "tensorflow": "rconv6/w2",
+      "shape": [
+        96,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "blocks.5.normactconv1.conv.weight",
+      "tensorflow": "rconv6/w1",
+      "shape": [
+        96,
+        96,
+        3,
+        3
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "norm_trunkfinal.beta",
+      "tensorflow": "trunk/norm/beta",
+      "shape": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "policy_head.conv1p.weight",
+      "tensorflow": "p1/intermediate_conv/w",
+      "shape": [
+        32,
+        96,
+        1,
+        1
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "policy_head.conv1g.weight",
+      "tensorflow": "g1/w",
+      "shape": [
+        32,
+        96,
+        1,
+        1
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "policy_head.biasg.beta",
+      "tensorflow": "g1/norm/beta",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "policy_head.linear_g.weight",
+      "tensorflow": "matmulg2w",
+      "shape": [
+        32,
+        96
+      ],
+      "transform": "linear"
+    },
+    {
+      "pytorch": "policy_head.bias2.beta",
+      "tensorflow": "p1/norm/beta",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "value_head.conv1.weight",
+      "tensorflow": "v1/w",
+      "shape": [
+        32,
+        96,
+        1,
+        1
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "value_head.bias1.beta",
+      "tensorflow": "v1/norm/beta",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "value_head.linear2.weight",
+      "tensorflow": "v2/w",
+      "shape": [
+        64,
+        96
+      ],
+      "transform": "linear"
+    },
+    {
+      "pytorch": "value_head.linear2.bias",
+      "tensorflow": "v2/b",
+      "shape": [
+        64
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "value_head.linear_valuehead.weight",
+      "tensorflow": "v3/w",
+      "shape": [
+        3,
+        64
+      ],
+      "transform": "linear"
+    },
+    {
+      "pytorch": "value_head.linear_valuehead.bias",
+      "tensorflow": "v3/b",
+      "shape": [
+        3
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "value_head.linear_miscvaluehead.weight",
+      "tensorflow": "mv3/w",
+      "shape": [
+        10,
+        64
+      ],
+      "transform": "linear"
+    },
+    {
+      "pytorch": "value_head.linear_miscvaluehead.bias",
+      "tensorflow": "mv3/b",
+      "shape": [
+        10
+      ],
+      "transform": "identity"
+    },
+    {
+      "pytorch": "value_head.conv_ownership.weight",
+      "tensorflow": "vownership/w",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "value_head.conv_scoring.weight",
+      "tensorflow": "vscoring/w",
+      "shape": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "value_head.conv_futurepos.weight",
+      "tensorflow": "futurepos/w",
+      "shape": [
+        2,
+        96,
+        1,
+        1
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "value_head.conv_seki.weight",
+      "tensorflow": "seki/w",
+      "shape": [
+        4,
+        96,
+        1,
+        1
+      ],
+      "transform": "conv"
+    },
+    {
+      "pytorch": "policy_head.conv2p.weight",
+      "tensorflow": "p2/w",
+      "transform": "copy primary/opponent into soft heads"
+    },
+    {
+      "pytorch": "policy_head.linear_pass.weight",
+      "tensorflow": "matmulpass",
+      "transform": "copy primary/opponent into soft heads"
+    }
+  ],
+  "newly_initialized": [
+    "value_head.linear_moremiscvaluehead.weight",
+    "value_head.linear_moremiscvaluehead.bias",
+    "value_head.linear_s2.weight",
+    "value_head.linear_s2.bias",
+    "value_head.linear_s2off.weight",
+    "value_head.linear_s2par.weight",
+    "value_head.linear_s3.weight",
+    "value_head.linear_s3.bias",
+    "value_head.linear_smix.weight",
+    "value_head.linear_smix.bias"
+  ],
+  "unused_tf_tensors": [
+    "sb2/b",
+    "sb2/w",
+    "sb2_offset/w",
+    "sb2_parity/w",
+    "sb3/w",
+    "sbscale2/b",
+    "sbscale2/w",
+    "sbscale3/w"
+  ],
+  "limitations": [
+    "Score-distribution head changed architecture and is initialized fresh",
+    "New short-term error and third TD/TD-score head initialized fresh",
+    "Variance-time scaling changed from 150 to 40; this auxiliary prediction requires adaptation",
+    "Optimizer history unavailable; new optimizer state starts at zero"
+  ]
+}

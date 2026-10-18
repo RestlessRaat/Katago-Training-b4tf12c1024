@@ -1,0 +1,13 @@
+.venv*/
+downloads/
+vendor/
+models/
+runs/
+__pycache__/
+*.pyc
+.publish/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

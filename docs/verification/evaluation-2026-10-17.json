@@ -1,0 +1,22 @@
+{
+  "candidate": "D:\\My codes\\Katago_Training\\runs\\b6c96-9x9\\exports\\ce37526c5caa\\model.bin.gz",
+  "candidate_sha256": "4b1070ca695efaa6f573d45d0722155c36f6ef14a1982f3c6a776805a135dc30",
+  "incumbent": "D:\\My codes\\Katago_Training\\models\\pretrained\\b6c96-tf\\b6c96-s175395328-d26788732\\model.txt.gz",
+  "games": 4,
+  "visits": 32,
+  "rules": "Chinese/area, positional ko, komi 7.5, 9x9",
+  "wins": 2,
+  "losses": 2,
+  "draws": 0,
+  "colors": {
+    "B": 2,
+    "W": 2
+  },
+  "score_rate": 0.5,
+  "approximate_95_percent_interval": [
+    0.15003570882017148,
+    0.8499642911798285
+  ],
+  "gate_passed": false,
+  "caveat": "Operational screening only; stochastic openings are not paired; interval assumes approximately independent games; confirm close results on a fresh match set"
+}

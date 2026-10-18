@@ -1,0 +1,16 @@
+[
+  {
+    "file": "downloads/KataGo-source.zip",
+    "url": "https://codeload.github.com/lightvector/KataGo/zip/d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+    "sha256": "8f3d26956d3ad94eec7ab5bff841d7310efd2c6e067ed53787ff679e39cf3793",
+    "destination": "vendor",
+    "sentinel": "vendor/KataGo-d91ea855110dae533f0aada947b2b7d78cc8a4e1/python/train.py"
+  },
+  {
+    "file": "downloads/b6c96-original.zip",
+    "url": "https://media.katagotraining.org/uploaded/networks/zips/kata1/kata1-b6c96-s175395328-d26788732.zip",
+    "sha256": "405875c5cfc41ab6b4b5ff818edf3301103d6639fe9bb2c7f2e1489fce5289f4",
+    "destination": "models/pretrained/b6c96-tf",
+    "sentinel": "models/pretrained/b6c96-tf/b6c96-s175395328-d26788732/saved_model/variables/variables.index"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "source_commit": "d91ea855110dae533f0aada947b2b7d78cc8a4e1",
+  "engine": "D:/Apps/KataGo/CUDA_version/katago-v1.18.2-cuda12.8-cudnn9.8.0-windows-x64/katago.exe",
+  "base_model": "models/pretrained/b6c96-tf/b6c96-s175395328-d26788732/model.txt.gz",
+  "initial_checkpoint": "models/pretrained/b6c96-pytorch/initial.ckpt",
+  "run_dir": "runs/b6c96-9x9",
+  "board_size": 9,
+  "batch_size": 32,
+  "lr_scale": 0.1,
+  "selfplay_games": 128,
+  "samples_per_epoch": 1024,
+  "epochs_per_cycle": 1
+}

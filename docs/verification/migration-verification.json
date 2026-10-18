@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "positions": [
+    {
+      "position": 0,
+      "passed": true,
+      "same_illegal_move_mask": true,
+      "differences": {
+        "whiteWin": 0.0,
+        "whiteLoss": 0.0,
+        "noResult": 0.0,
+        "whiteLead": 0.0,
+        "whiteScoreSelfplay": 0.0,
+        "whiteScoreSelfplaySq": 0.0,
+        "policy_max_abs": 0.0,
+        "ownership_max_abs": 0.0
+      }
+    },
+    {
+      "position": 1,
+      "passed": true,
+      "same_illegal_move_mask": true,
+      "differences": {
+        "whiteWin": 0.0,
+        "whiteLoss": 0.0,
+        "noResult": 0.0,
+        "whiteLead": 0.0,
+        "whiteScoreSelfplay": 0.0,
+        "whiteScoreSelfplaySq": 0.0,
+        "policy_max_abs": 0.0,
+        "ownership_max_abs": 0.0
+      }
+    },
+    {
+      "position": 2,
+      "passed": true,
+      "same_illegal_move_mask": true,
+      "differences": {
+        "whiteWin": 0.0,
+        "whiteLoss": 0.0,
+        "noResult": 0.0,
+        "whiteLead": 0.0,
+        "whiteScoreSelfplay": 0.0,
+        "whiteScoreSelfplaySq": 0.0,
+        "policy_max_abs": 0.0,
+        "ownership_max_abs": 0.0
+      }
+    }
+  ],
+  "compared": "Primary policy incl pass, value probabilities, score moments, lead, ownership; FP32, symmetry 0",
+  "excluded": "Changed auxiliary score-distribution/error/variance-time heads; not an assertion of bit-identical full training state"
+}
